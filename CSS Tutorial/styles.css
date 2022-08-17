@@ -1,0 +1,20 @@
+#one {
+  color: rgba(255, 0, 0, 1);
+  background: rgba(0, 0, 0, 0);
+}
+#two {
+  color: rgba(255, 0, 0, 0.75);
+  /* background: ; */
+}
+#three {
+  color: rgba(255, 0, 0, 0.25);
+  /* background: ; */
+}
+#four {
+  /* color: rgba(255, 0, 0, 0); */
+  color: rgba(255, 255, 0, 0.69);
+  background: rgba(0, 0, 0, 1);
+}
+body {
+  background: rgba(255, 0, 0, 0.25);
+}

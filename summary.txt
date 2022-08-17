@@ -1,0 +1,64 @@
+ID => #Unique
+Class => .not
+***************************
+DIV AND SPAN - used for grouping
+DIV => used to group multipule elements
+SPAN => used to group inline content
+***************************
+INHERITANCE : children inherit styles from the parent, unless have their own styles
+***************************
+RGBA - A Opacity = Transparency [0 -1]
+HEX => #RRGGBB 
+Red = #FF0000
+Green = #00FF00
+Blue = #0000FF
+***************************
+% Percent - Relative .. Depends on the parent
+em - Relative .. Depends on the parent @
+1em - 16px default browser style
+1em = base value (16px) *  nb (1) = 16px
+1em = base value (16px) *  nb (2) = 32px
+rem - Relative  .. Depends on the root @
+1rem = base value (16px) *  nb (1) = 16px
+------------------------------
+Viewport units : Relative
+vh - height - percent of the screen
+vw - width - percent of the screen @
+------------------------------
+calc () - perform math operation - + * /
+mix and math values
+******************************
+line-height : if number *  by font-size
+******************************
+BLOCK: browser respects width/height, top/bottom margin
+same for inline-block expect it doesn't start a new line
+To center a block ele : 
+1. Add a width 
+2. margin: ..rem auto;
+_____________________________
+INLINE: doesn't respect
+To center an inline ele : 
+1. text-align : center; the root of that inline ele 
+******************************
+box-sizing: border-box;
+the default is content-box
+******************************
+display: none - remove from the flow, hide element, collapse the space
+Opacity:0, visibility: hidden - hides element BUT preserves the space
+******************************
+float => use also clear
+******************************
+position: static - default, always positioned according to the normal flow
+position: relative - position relative according to its normal position, top, bottom, left, right
+1. static: Default one.
+2. relative : Same as static. But lets you ad (edit) top, right, bottom, left (but in general, it's not used for that purpose). Makes it move relative to it's normal position. (relative and absolute work well together)
+3. absolute: Removes completely the ele from the doc flow, removes space as it doesn't exist  and positions absolute wrt to the parent. Parent has to be relative or absolute for top, right, bottom, left to work. Else it considers the main html element as the  parent.
+4. fixed : Fixed to a place. Doesn't give two shits about the parent. Always considers html element as the parent. Stays there when scrolled.
+5. sticky : Relative ( by default, when normal) + fixed ( when scrolled). The values for top, right, bottom, left become active when scrolled
+******************************
+Background-size: 
+1. contain : keep the ratio of the img and if there is enough space, keep repeating it
+2. cover : cover the hole div with the img
+*****************************
+17. apple.small:last-child, pickle.small:last-child
+

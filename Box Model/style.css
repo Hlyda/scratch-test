@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+h1 {
+  background: red;
+  padding: 40px;
+  margin: 30px;
+  border: 15px solid #000;
+  border-radius: 10px;
+}
+h1,
+p {
+  color: white;
+}
+p {
+  background: blue;
+  padding: 30px 60px;
+  margin: 5px 20px 50px 30px;
+  border: 15px dotted pink;
+  border-radius: 50%;
+}

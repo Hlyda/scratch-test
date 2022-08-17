@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Trade+Winds&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+h1 {
+  font-family: "Trade Winds", cursive;
+}
+p {
+  text-indent: 1rem;
+  word-spacing: 0.5rem;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+}

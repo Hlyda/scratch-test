@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  color: white;
+  font-size: 3rem;
+  height: 6rem;
+}
+.banner {
+  background: red;
+  min-height: calc(100vh - 6rem);
+}
+.ex {
+  background: green;
+  height: 5rem;
+  width: 10rem;
+  /* overflow: hidden; */
+  overflow: scroll;
+}
